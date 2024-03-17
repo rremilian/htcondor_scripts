@@ -1,0 +1,7 @@
+#!/bin/bash
+
+export g16root=/home/soft/g16_install
+export GAUSS_SCRDIR=/home/soft/g_SCRATCH
+source $g16root/g16/bsd/g16.profile
+
+/home/soft/g16_install/g16/l1.exe $1
