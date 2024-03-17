@@ -1,0 +1,5 @@
+#!/bin/bash
+export HOME=$(pwd)
+export PATH="/home/soft/MOLPRO/bin:$PATH"
+export TMPDIR="/home/soft/molpro_SCRATCH"
+/home/soft/bin/molpro -t 1 -n $1 -m $2 $3
